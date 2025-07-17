@@ -1,0 +1,34 @@
+:root {
+  --avatar-size: 72px;
+	--post-avatar-spacing: 4px;
+	--stripes: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAIklEQVQIW2NkQAJnzpz5zwjjgzgmJiaMYAEYB8RmROaABAD4hQ9o0iqJkwAAAABJRU5ErkJggg==');
+	--bubble-triangle: 12px;
+	--total-post-padding: calc(var(--avatar-size) + var(--post-avatar-spacing) + var(--bubble-triangle));
+	--polygon--bubble: polygon(
+		0 0,
+		100% 0,
+		100% 100%,
+		var(--bubble-triangle) 100%,
+		var(--bubble-triangle) var(--bubble-triangle)
+	);
+	--polygon--own-bubble: polygon(
+		0 0,
+		100% 0,
+		calc(100% - var(--bubble-triangle)) var(--bubble-triangle),
+		calc(100% - var(--bubble-triangle)) 100%,
+		0 100%
+	);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+a {
+	text-decoration: underline;
+	color: inherit;
+}
