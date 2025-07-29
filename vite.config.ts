@@ -26,7 +26,7 @@ export default defineConfig({
 	},
 	define: {
 		__APP_NAME__: JSON.stringify(process.env.npm_package_name),
-		__APP_REPO_URL__: JSON.stringify('https://example.com'),
+		__APP_REPO_URL__: JSON.stringify('https://git.sr.ht/~sleepycrow/no_client'),
 		__APP_VERSION__: JSON.stringify(process.env.npm_package_version),
 		__APP_COMMIT_HASH__: JSON.stringify(getCommitHash()),
 	},
