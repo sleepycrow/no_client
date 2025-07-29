@@ -7,6 +7,7 @@
         "@noble/curves": "^1.9.2",
         "@noble/hashes": "^1.8.0",
         "canonicalize": "^2.1.0",
+        "material-symbols": "^0.33.0",
         "pinia": "^3.0.3",
         "sass": "^1.89.2",
         "vue": "^3.5.17",
@@ -401,6 +402,8 @@
     "lru-cache": ["lru-cache@5.1.1", "", { "dependencies": { "yallist": "^3.0.2" } }, "sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w=="],
 
     "magic-string": ["magic-string@0.30.17", "", { "dependencies": { "@jridgewell/sourcemap-codec": "^1.5.0" } }, "sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA=="],
+
+    "material-symbols": ["material-symbols@0.33.0", "", {}, "sha512-t9/Gz+14fClRgN7oVOt5CBuwsjFLxSNP9BRDyMrI5el3IZNvoD94IDGJha0YYivyAow24rCS0WOkAv4Dp+YjNg=="],
 
     "memorystream": ["memorystream@0.3.1", "", {}, "sha512-S3UwM3yj5mtUSEfP41UZmt/0SCoVYUcU1rkXv+BQ5Ig8ndL4sPoJNBUJERafdPb5jjHJGuMgytgKvKIf58XNBw=="],
 

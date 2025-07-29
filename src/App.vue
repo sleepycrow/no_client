@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import { useAuthStore } from './stores/auth';
+import Navbar from './components/Navbar/Navbar.vue';
 
 const stores = {
 	auth: useAuthStore(),
@@ -21,6 +22,8 @@ stores.auth.prepareAppCredentials();
 			{{ appVersion }} - {{ appCommitHash }} - <a :href="appRepoUrl">(src)</a>
 		</div>
 	</header>
+
+	<Navbar />
 
 	<div class="page-container">
 		<RouterView />
